@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav div a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
