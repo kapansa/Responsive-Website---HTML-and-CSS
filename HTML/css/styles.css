@@ -5,6 +5,11 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #F1F1F1;
+}
+
+.container{
+    padding: 0 100px;
 }
 
 header{
@@ -16,14 +21,75 @@ nav{
     justify-content: space-between;
 }
 
-nav div{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 nav div a{
     padding: 15px;
     text-decoration: none;
     font-size: 18px;
     color: white;
+    display: inline-block;
+}
+
+nav div a:hover{
+    background-color: rgba(155, 151, 151, 0.952);
+}
+
+.top_hero_section{
+    background-color: white;
+    padding: 80px 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.top_hero_section h1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 42px;
+    line-height: 72px;
+    letter-spacing: normal;
+}
+
+.top_hero_section p{
+    line-height: 24px;
+    letter-spacing: normal;
+    font-size: 16px;
+}
+
+.top_hero_section span{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.bottom_hero_section{
+    background-image: url("../images/jane.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 400px 0 400px 30px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bottom_hero_section h2{
+    font-size: 36px;
+    line-height: 64px;
+    letter-spacing: 4px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.bottom_hero_section h1{
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 4px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.bottom_hero_section a{
+    color: black;
+    text-decoration: none;
+    background-color: #bdbabadc;
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: inline-block;
 }
