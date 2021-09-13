@@ -6,10 +6,15 @@ body{
     margin: 0;
     padding: 0;
     background-color: #F1F1F1;
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
-    padding: 0 100px;
+    margin: 0 100px;
 }
 
 header{
@@ -37,7 +42,6 @@ nav div a:hover{
     background-color: white;
     padding: 80px 0;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
 }
 
 .top_hero_section h1{
@@ -66,7 +70,6 @@ nav div a:hover{
     background-repeat: no-repeat;
     padding: 400px 0 400px 30px;
     color: white;
-    font-family: 'Oswald', sans-serif;
 }
 
 .bottom_hero_section h2{
@@ -92,4 +95,42 @@ nav div a:hover{
     padding: 10px 15px;
     margin-top: 10px;
     display: inline-block;
+}
+
+main{
+    display: flex;
+    border: 1px solid #837e7e8c;
+    padding: 40px;
+}
+
+article{
+    background-color: white;
+    padding: 30px;
+    flex-basis: 70%;
+}
+
+article div{
+    text-align: center;
+}
+
+.article_heading h1{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: normal;
+}
+
+.article_heading p{
+    font-size: 18px;
+    line-height: 22.5px;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.article_heading p span{
+    color: rgba(139, 139, 139, 0.877);
+}
+
+article #main_image{
+    width: 100%;
 }
