@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.container {
+    margin: 0 100px;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+}
+
+nav div a:hover {
+    background-color: rgba(155, 151, 151, 0.952);
+}
+
+.top_hero_section {
+    background-color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.top_hero_section h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 42px;
+    line-height: 72px;
+    letter-spacing: normal;
+}
+
+.top_hero_section p {
+    line-height: 24px;
+    letter-spacing: normal;
+    font-size: 16px;
+}
+
+.top_hero_section span {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.bottom_hero_section {
+    background-image: url("../images/jane.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 400px 0 400px 30px;
+    color: white;
+}
+
+.bottom_hero_section a:hover{
+    background-color: #dfd9d9e7;
+}
+
+.bottom_hero_section h2 {
+    font-size: 36px;
+    line-height: 64px;
+    letter-spacing: 4px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.bottom_hero_section h1 {
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 4px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.bottom_hero_section a {
+    color: black;
+    text-decoration: none;
+    background-color: #bdbabadc;
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.main {
+    display: flex;
+    border: 1px solid #837e7e8c;
+    padding: 40px;
+}
+
+main {
+    flex-basis: 65%;
+}
+
+.side_content{
+    flex-basis: 35%;
+}
+
+.article_p p{
+    text-align: justify;
+}
+
+article{
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 30px;
+}
+
+article .article_heading {
+    text-align: center;
+}
+
+.article_heading h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: normal;
+}
+
+.article_heading p {
+    font-size: 18px;
+    line-height: 22.5px;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.article_heading p span {
+    color: rgba(139, 139, 139, 0.877);
+}
+
+article #main_image {
+    width: 100%;
+}
+
+article p span {
+    font-weight: bold;
+}
+
+.btn_like_reply {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_like_reply button {
+    text-decoration: none;
+    border: 1px solid rgba(138, 133, 133, 0.534);
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.btn_like_reply button:hover {
+    border: 1px solid rgba(138, 133, 133, 0);
+    background-color: rgb(211, 205, 205);
+    color: black;
+}
+
+.btn_reply {
+    background-color: black;
+    color: white;
+}
+
+.btn_reply span{
+    background-color: white;
+    color: black;
+    padding: 2px 10px;
+    margin-left: 5px;
+}
+
+.btn_like {
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.line{
+    height: 1px;
+    background-color: rgba(163, 157, 157, 0.568);
+    margin: 40px 0 20px;
+}
+
+.replies{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.replies .img_reply img{
+    height: auto;
+    width: 90px;
+    margin-right: 50px;
+}
+
+.replies .text_reply span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hide_show_replies{
+    display: none;
+}
+
+footer{
+    background-color: #616161;
+    padding: 100px 100px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+}
+
+footer p{
+    color: white;
+}
+
+.side_content{
+    padding-left: 30px;
+}
+
+.top_article{
+    background-color: black;
+    color: white;
+}
+
+.top_article img{
+    width: 100%;
+}
+
+.top_article h1{
+    font-size: 20px;
+}
+
+.top_text{
+    padding: 0 10px 10px;
+}
