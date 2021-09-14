@@ -183,6 +183,7 @@ article p span {
     border: 1px solid rgba(138, 133, 133, 0);
     background-color: rgb(211, 205, 205);
     color: black;
+    cursor: pointer;
 }
 
 .btn_reply {
@@ -315,6 +316,7 @@ footer p{
 .Single_post:hover{
     background-color: rgba(161, 156, 156, 0.438);
     border-top: 1px solid rgba(146, 142, 142, 0);
+    cursor: pointer;
 }
 
 .Single_post img{
@@ -378,6 +380,11 @@ footer p{
     padding: 7px 7px 10px;
 }
 
+.social_media_links i:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.712);
+}
+
 .social_media_links{
     margin: 10px;
 }
@@ -400,4 +407,9 @@ footer p{
     background-color: #f44336;
     color: white;
     margin-top: 10px;
+}
+
+.input_details button:hover{
+    background-color: #b8b5b4cc;
+    color: black;
 }
