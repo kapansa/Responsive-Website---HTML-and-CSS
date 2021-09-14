@@ -1,4 +1,5 @@
-# Web-Development---HTML-and-CSS
+# Web-Development 
+## HTML, CSS and Javascript
 
 This is a project based on a short course for HTML, CSS and JavaScript.
 
