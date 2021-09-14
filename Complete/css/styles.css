@@ -266,3 +266,138 @@ footer p{
 .top_text{
     padding: 0 10px 10px;
 }
+
+.popular_posts{
+    background-color: white;
+    margin-top: 40px;
+}
+
+.Advertise{
+    background-color: white;
+    margin-top: 40px;
+    padding-bottom: 15px;
+}
+
+.advertise_heading{
+    background-color: black;
+    padding: 15px;
+}
+
+.post_heading{
+    background-color: black;
+    padding: 15px;
+}
+
+.advertise_heading p{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.post_heading p{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.Single_post{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid rgba(146, 142, 142, 0.267);
+}
+
+.Single_post:hover{
+    background-color: rgba(161, 156, 156, 0.438);
+    border-top: 1px solid rgba(146, 142, 142, 0);
+}
+
+.Single_post img{
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+.Single_post p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.Single_post .name {
+    font-size: 18px;
+}
+
+.ad p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.ad{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 100px 0;
+    margin: 15px 15px 0;
+}
+
+.tags{
+    padding: 15px;
+}
+
+.tags span{
+    margin: 10px;
+    line-height: 30px;
+}
+
+.main_tag{
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+}
+
+.other_tag{
+    background-color: #f1f1f1;
+    padding: 2px 5px;
+}
+
+.photos{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.photos img{
+    width: 48%;
+}
+
+.social_media_links i{
+    font-size: 24px;
+    padding: 7px 7px 10px;
+}
+
+.social_media_links{
+    margin: 10px;
+}
+
+.input_details{
+    padding: 15px;
+}
+
+.input_details input{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(197, 195, 195, 0.609);
+}
+
+.input_details button{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background-color: #f44336;
+    color: white;
+    margin-top: 10px;
+}
