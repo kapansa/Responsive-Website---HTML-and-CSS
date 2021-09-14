@@ -26,7 +26,7 @@ a {
 }
 
 .container {
-    margin: 0 100px;
+    margin: 0 5%;
 }
 
 header {
@@ -79,12 +79,13 @@ nav div a:hover {
 .bottom_hero_section {
     background-image: url("../images/jane.jpg");
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     padding: 400px 0 400px 30px;
     color: white;
 }
 
-.bottom_hero_section a:hover{
+.bottom_hero_section a:hover {
     background-color: #dfd9d9e7;
 }
 
@@ -123,15 +124,15 @@ main {
     flex-basis: 65%;
 }
 
-.side_content{
+.side_content {
     flex-basis: 35%;
 }
 
-.article_p p{
+.article_p p {
     text-align: justify;
 }
 
-article{
+article {
     margin-bottom: 30px;
     background-color: white;
     padding: 30px;
@@ -191,7 +192,7 @@ article p span {
     color: white;
 }
 
-.btn_reply span{
+.btn_reply span {
     background-color: white;
     color: black;
     padding: 2px 10px;
@@ -203,93 +204,93 @@ article p span {
     background-color: rgba(255, 255, 255, 0);
 }
 
-.line{
+.line {
     height: 1px;
     background-color: rgba(163, 157, 157, 0.568);
     margin: 40px 0 20px;
 }
 
-.replies{
+.replies {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.replies .img_reply img{
+.replies .img_reply img {
     height: auto;
     width: 90px;
     margin-right: 50px;
 }
 
-.replies .text_reply span{
+.replies .text_reply span {
     font-weight: bold;
     font-size: 20px;
 }
 
-.hide_show_replies{
+.hide_show_replies {
     display: none;
 }
 
-footer{
+footer {
     background-color: #616161;
     padding: 100px 100px;
 }
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     background-color: black;
 }
 
-footer p{
+footer p {
     color: white;
 }
 
-.side_content{
+.side_content {
     padding-left: 30px;
 }
 
-.top_article{
+.top_article {
     background-color: black;
     color: white;
 }
 
-.top_article img{
+.top_article img {
     width: 100%;
 }
 
-.top_article h1{
+.top_article h1 {
     font-size: 20px;
 }
 
-.top_text{
+.top_text {
     padding: 0 10px 10px;
 }
 
-.popular_posts{
+.popular_posts {
     background-color: white;
     margin-top: 40px;
 }
 
-.Advertise{
+.Advertise {
     background-color: white;
     margin-top: 40px;
     padding-bottom: 15px;
 }
 
-.advertise_heading{
+.advertise_heading {
     background-color: black;
     padding: 15px;
 }
 
-.post_heading{
+.post_heading {
     background-color: black;
     padding: 15px;
 }
 
-.advertise_heading p{
+.advertise_heading p {
     color: white;
     font-size: 20px;
     line-height: 30px;
@@ -297,7 +298,7 @@ footer p{
     margin-block-end: 0em;
 }
 
-.post_heading p{
+.post_heading p {
     color: white;
     font-size: 20px;
     line-height: 30px;
@@ -305,7 +306,7 @@ footer p{
     margin-block-end: 0em;
 }
 
-.Single_post{
+.Single_post {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -313,19 +314,19 @@ footer p{
     border-top: 1px solid rgba(146, 142, 142, 0.267);
 }
 
-.Single_post:hover{
+.Single_post:hover {
     background-color: rgba(161, 156, 156, 0.438);
     border-top: 1px solid rgba(146, 142, 142, 0);
     cursor: pointer;
 }
 
-.Single_post img{
+.Single_post img {
     height: 50px;
     width: 50px;
     padding-right: 10px;
 }
 
-.Single_post p{
+.Single_post p {
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
@@ -334,73 +335,73 @@ footer p{
     font-size: 18px;
 }
 
-.ad p{
+.ad p {
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
 
-.ad{
+.ad {
     background-color: #f5f5f5;
     text-align: center;
     padding: 100px 0;
     margin: 15px 15px 0;
 }
 
-.tags{
+.tags {
     padding: 15px;
 }
 
-.tags span{
+.tags span {
     margin: 10px;
     line-height: 30px;
 }
 
-.main_tag{
+.main_tag {
     background-color: black;
     color: white;
     padding: 2px 5px;
 }
 
-.other_tag{
+.other_tag {
     background-color: #f1f1f1;
     padding: 2px 5px;
 }
 
-.photos{
+.photos {
     text-align: center;
     padding-top: 15px;
 }
 
-.photos img{
+.photos img {
     width: 48%;
 }
 
-.social_media_links i{
+.social_media_links i {
     font-size: 24px;
     padding: 7px 7px 10px;
 }
 
-.social_media_links i:hover{
+.social_media_links i:hover {
     cursor: pointer;
     color: rgba(0, 0, 0, 0.712);
 }
 
-.social_media_links{
+.social_media_links {
     margin: 10px;
 }
 
-.input_details{
+.input_details {
     padding: 15px;
 }
 
-.input_details input{
+.input_details input {
     padding: 10px;
     display: block;
     width: 100%;
     border: 1px solid rgba(197, 195, 195, 0.609);
 }
 
-.input_details button{
+.input_details button {
     width: 100%;
     padding: 10px;
     border: 0;
@@ -409,7 +410,31 @@ footer p{
     margin-top: 10px;
 }
 
-.input_details button:hover{
+.input_details button:hover {
     background-color: #b8b5b4cc;
     color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    .main {
+        flex-wrap: wrap;
+        padding: 20px;
+        border: 1px solid #837e7e00;
+    }
+
+    main {
+        flex-basis: 100%;
+    }
+
+    .side_content {
+        flex-basis: 100%;
+    }
+
+    .container{
+        margin: 0;
+    }
+
+    .side_content {
+        padding-left: 0;
+    }
 }
