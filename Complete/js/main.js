@@ -19,4 +19,4 @@ likes.forEach((like) => {
         this.innerHTML = "✓ Liked";
     });
 
-})
+});

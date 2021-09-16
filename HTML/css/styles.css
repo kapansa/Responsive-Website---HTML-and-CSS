@@ -109,7 +109,7 @@ article{
     flex-basis: 70%;
 }
 
-article div{
+article .article_heading{
     text-align: center;
 }
 
@@ -133,4 +133,60 @@ article div{
 
 article #main_image{
     width: 100%;
+}
+
+.article_p {
+    line-height: 24px;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+}
+
+.article_p span{
+    font-weight: bold;
+}
+
+.line{
+    height: 2px;
+    background-color: rgba(214, 211, 211, 0.596);
+    margin: 50px 0;
+}
+
+.btn_like_reply button{
+    padding: 10px 15px;
+}
+
+.btn_like_reply {
+   display: flex;
+   justify-content: space-between;
+}
+
+.like_btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(190, 186, 186, 0.671);
+}
+
+.replies_btn{
+    background-color: black;
+    border: 1px solid rgba(190, 186, 186, 0);
+    color: white;
+}
+
+.replies_btn span{
+    color: black;
+    background-color: white;
+    padding: 3px 5px;
+}
+
+.reply_img img{
+    width: 90px;
+}
+
+.replies{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.reply_img{
+    margin-right: 20px;
 }
